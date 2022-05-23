@@ -7,6 +7,23 @@
 - [Terraform CDK](https://www.terraform.io/cdktf)
 - [ReactJS](https://reactjs.org/docs/getting-started.html)
 
+## Step Two
+
+- Let's add Terraform CDK -> https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
+
+```shell
+npm install -g cdktf-cli@latest
+````
+
+- Now initialize a new project
+
+```shell
+mkdir cdk
+cd cdk
+cdktf init --template=typescript
+```
+
+
 ## Step One
 
 - Install [Azure-CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
