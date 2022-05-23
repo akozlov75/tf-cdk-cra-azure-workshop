@@ -7,6 +7,33 @@
 - [Terraform CDK](https://www.terraform.io/cdktf)
 - [ReactJS](https://reactjs.org/docs/getting-started.html)
 
+## Step Three
+
+Time to add necessary files
+
+- Let's add azure provider to CDK part
+
+```shell
+cd cdk
+npm install @cdktf/provider-azurerm dotenv
+```
+
+- Let's add needed data to `cdk/cdktf.json`
+
+```json
+{
+  ...
+  "terraformProviders": ["azurerm@~>3.7.0"],
+  ...
+}
+```
+
+- Now we can get provider constructs
+
+```shell
+npm run get
+```
+
 ## Step Two
 
 - Let's add Terraform CDK -> https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
