@@ -7,6 +7,17 @@
 - [Terraform CDK](https://www.terraform.io/cdktf)
 - [ReactJS](https://reactjs.org/docs/getting-started.html)
 
+## Step Four
+
+Time to create needed variables
+
+- Create `.env` file in cdk root base on `.env.example`
+- Goto 'Azure Education & Testing' subscription on `https://portal.azure.com/`
+- Copy and paste `Subscription Id` into `.env`
+- In 'Azure Active Directory' properties copy `Tenant Id` and add it to `.env` file
+- Add rest of the variables
+
+
 ## Step Three
 
 Time to add necessary files
