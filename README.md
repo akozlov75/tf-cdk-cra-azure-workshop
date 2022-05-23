@@ -9,7 +9,8 @@
 
 ## Step One
 
-Create SPA application with this command
+- Install [Azure-CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
+- Create SPA application with this command
 
 ```shell
 npx create-react-app <NAME OF YOUR APPPLICATION> --template typescript
