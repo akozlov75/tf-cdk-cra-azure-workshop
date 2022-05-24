@@ -10,6 +10,7 @@
 ## Step One
 
 - Install [Azure-CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
+- Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Create SPA application with this command
 
 ```shell
